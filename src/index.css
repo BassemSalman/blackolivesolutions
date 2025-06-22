@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-800;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.text-gold-400 {
+  color: #dfc48c;
+}
+
+.text-gold-500 {
+  color: #d4af37;
+}
+
+.text-gold-600 {
+  color: #c5a028;
+}
+
+.bg-gold-500 {
+  background-color: #d4af37;
+}
+
+.bg-gold-600 {
+  background-color: #c5a028;
+}
+
+.border-gold-500 {
+  border-color: #d4af37;
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet-active {
+  background-color: #d4af37 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #d4af37 !important;
+}
+
+.client-carousel .swiper-slide {
+  height: auto;
+}
